@@ -1,5 +1,7 @@
 # Tesina - NewInfostud
 
+***Please note***: This project was carried out together with : Luca Zanchetta. For this reason, the original git hub, containing all commits, can be reached via the following [link](https://github.com/luca-zanchetta/Tesina-NewInfostud). This repo is a re-upload so it can be viewed on my profile.
+
 Si propone di realizzare una piattaforma che replichi le funzionalità del noto portale infostud. Il sito è visitabile a partire da una pagina home, accessibile da tutte le utenze, che illustra i corsi di laurea offerti dall’università con annesse informazioni relative agli esami che essi prevedono.
 La lista dei corsi di laurea e degli esami può essere visionata applicando un filtro di visualizzazione basato sul nome.
 Tramite un’apposita pagina di login, il visitatore può autenticarsi utilizzando le proprie credenziali, accedendo così alle funzionalità competenti alla sua utenza.

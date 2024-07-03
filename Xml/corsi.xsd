@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+    <xsd:element name="corsi">
+        <xsd:complexType>
+            <xsd:sequence>
+                <xsd:element ref="corso" maxOccurs="unbounded" />
+            </xsd:sequence>
+        </xsd:complexType>
+    </xsd:element>
+    <xsd:element name="corso"> <!-- singola "riga" della tabella -->
+    <xsd:complexType>
+        <xsd:sequence>
+        <xsd:element ref="id" minOccurs="1" maxOccurs="1" /> <!-- forse è un attributo? -->
+        <xsd:element ref="nome" minOccurs="1" maxOccurs="1" />
+        <xsd:element ref="matricolaDocente" minOccurs="1" maxOccurs="1" />
+        <xsd:element ref="matricolaCoDocente" minOccurs="1" maxOccurs="1" />
+        <xsd:element ref="descrizione"  minOccurs="1" maxOccurs="1" />
+        <xsd:element ref="colore" minOccurs="1" maxOccurs="1" />
+        <xsd:element ref="anno" minOccurs="1" maxOccurs="1" />
+        <xsd:element ref="semestre" minOccurs="1" maxOccurs="1" />
+        <xsd:element ref="curriculum" minOccurs="1" maxOccurs="1" />
+        <xsd:element ref="cfu" minOccurs="1" maxOccurs="1" />
+        <xsd:element ref="ssd" minOccurs="1" maxOccurs="1" />
+        <xsd:element ref="idCorsoLaurea" minOccurs="1" maxOccurs="1" />
+        <xsd:element ref="stato" minOccurs="1" maxOccurs="1"/>
+        </xsd:sequence>   
+    </xsd:complexType>
+    </xsd:element>
+    <xsd:element name="id" type="xsd:integer"/>
+    <xsd:element name="nome" type="xsd:string"/>
+    <xsd:element name="matricolaDocente" type="xsd:short"/>
+    <xsd:element name="matricolaCoDocente" type="xsd:short"/>
+    <xsd:element name="descrizione" type="xsd:string"/>
+    <xsd:element name="colore" type="xsd:string"/>
+    <xsd:element name="anno" type="xsd:short"/>
+    <xsd:element name="curriculum" type="xsd:string"/>
+    <xsd:element name="semestre" type="xsd:short"/>
+    <xsd:element name="cfu" type="xsd:short"/>
+    <xsd:element name="ssd" type="xsd:string"/>
+    <xsd:element name="idCorsoLaurea" type="xsd:short"/>
+    <xsd:element name="stato" type="xsd:integer"/>
+</xsd:schema>

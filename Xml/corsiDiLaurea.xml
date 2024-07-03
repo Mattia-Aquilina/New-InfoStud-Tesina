@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<corsiDiLaurea xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="corsiDiLaurea.xsd">
+  <corsoDiLaurea>
+    <id>1</id>
+    <nome>Ingegneria dell'Informazione</nome>
+    <stato>1</stato>
+  </corsoDiLaurea>
+  <corsoDiLaurea>
+    <id>2</id>
+    <nome>Artificial Intelligence and Robotics</nome>
+    <stato>1</stato>
+  </corsoDiLaurea>
+  <corsoDiLaurea>
+    <id>3</id>
+    <nome>Engineering in Computer Science</nome>
+    <stato>1</stato>
+  </corsoDiLaurea>
+</corsiDiLaurea>

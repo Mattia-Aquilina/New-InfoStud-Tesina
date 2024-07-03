@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<segreteria xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="segreteria.xsd">
+    <segretario>
+        <username>segretario1</username>
+        <password>b58b71f31b9fb82e2bb615e93a3a39fe</password>
+        <stato>1</stato>
+    </segretario>
+</segreteria>

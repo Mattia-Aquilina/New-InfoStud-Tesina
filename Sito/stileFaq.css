@@ -1,0 +1,193 @@
+div._body {
+    display: flex;
+    flex-direction: column;
+}
+div.container {
+    display: flex;
+    flex-direction: column;
+    padding: 1%;
+    border-radius: 6px;
+    border: 1px solid black;
+    margin-left: 3%;
+    margin-right: 3%;
+    margin-top: 3%;
+    max-height: 300px;
+} 
+div.title {
+    display: flex;
+    width: 100%;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+div.researchBar{
+    display: flex;
+    align-content: center;
+    width: 90%;
+
+}
+.researchBar>form {
+    display: flex;
+    align-items: center;
+    width: 100%;
+}
+
+.researchBar>form>input {
+    display: flex;
+    width: 100%;
+}
+
+div.faqContainer {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    padding: .5%;
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+
+div.faq {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+
+div.upDown {
+    display: flex;
+    flex-direction: column;
+    width: 15%;
+    align-items: center;
+}
+
+.upDown>form>div>img {
+    display: flex;
+    width: 20px;
+    height: 20px;
+    position: relativec;
+}
+
+.upDown>form>div {
+    display: flex;
+    width: fit-content;
+    position: relative;
+}
+
+.upDown>form>div>input {
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    border: none;
+    background: #ffffff00;
+    padding: 0 ;
+}
+
+div.faqContent {
+    display: flex;
+    width: -webkit-fill-available;
+    flex-direction: column;
+    margin-left: .5%;
+}
+div.editButton {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.editButton>img {
+    width: 20px;
+    height: 20px;
+}
+
+div.contentRow {
+    display: flex;
+    flex-direction: row;
+}
+
+div.contentTitle {
+    font-weight: bold;
+    display: flex;
+    width: 15%;
+}
+
+div.content {
+    display: flex;
+    width: -webkit-fill-available;
+}
+
+.content>input {
+    display: none;
+    width: -webkit-fill-available;
+}
+
+div.contentQuestion {
+    display: flex;
+    width: -webkit-fill-available;
+    color: cornflowerblue;
+}
+div.faqAuthorData {
+    display: flex;
+    justify-content: center;
+    color: gray;
+}
+div.vBar {
+    display: flex;
+    height: 80%;
+    border: 1px black solid;
+}
+
+/* form di input */
+
+div.formContainer {
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 10%;
+    align-items: center;
+    width: 100%;
+    margin-top: 5%;
+    height: max-content;
+}
+div.formBorder {
+    display: flex;
+    width: fit-content;
+    padding: 1%;
+    border-radius: 6px;
+    border: 1px solid black;
+    flex-direction: column;
+    align-items: center;
+    padding: 1% 5% 2% 5%;
+}
+div.formTitle {
+    display: flex;
+    margin-bottom: 5%;
+}
+.formBorder>form {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    flex-direction: column;
+}
+.formBorder>form>textarea {
+    display: flex;
+    resize: none;
+    min-height: 20px;
+    width: 20rem;
+    border-radius: 25px;
+    padding: 12px 30px;
+}
+.formBorder>form>input {
+    margin-top: 2%;
+    display: flex;
+    border-radius: 5px;
+    border: 1px black solid;
+}
+
+.contentRow>form {
+    position: relative;
+    display: flex;
+    width:-webkit-fill-available;
+}
+.editButton>input {
+    position: absolute;
+    border: none;
+    background: #ffffff00;
+}

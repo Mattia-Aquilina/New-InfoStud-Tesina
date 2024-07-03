@@ -1,0 +1,426 @@
+/*classe contente le regole di stile comuni a tutte le pagine del sito*/
+body {
+    background-color: gainsboro;
+    font-family: helvetica,arial,sans-serif;
+    background-image: url(sfondo.jpg);/*da decidere*/
+    background-size: cover;
+    background-position: top center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-color: gainsboro;
+    line-height: 1.5em;
+    margin: 0;
+    overflow: hidden;
+    padding-bottom: 10%;
+}
+/*Barra Di navigazione fissata in alto*/
+div.header {
+    top: 0;
+    border-bottom: 1px solid black;
+    background-color: #1b1b1b;
+    display: flex;
+    align-items: center;
+    z-index: 100;
+    width: 100%;
+    position:sticky;
+}
+div.nav-left {
+    display: flex;
+    align-items: center;
+    flex:0.5;
+}
+.header>div {
+    margin: 15px;
+}
+.nav-left>h2{
+    margin: 15px;
+    color: white;
+    position: relative;
+}
+
+div.nav-logo {
+    position: relative;
+    object-fit: contain;
+    margin-left: 20px;
+}
+div.nav-central{
+    background-color: #4a4a4c;
+    height: 3.5rem;
+    display: flex;
+    flex: 1;
+    justify-content: flex-start;
+    width: 25%;
+    border-radius: 8px;
+    overflow: hidden;
+    align-items: center;
+}
+.nav-central>form {
+    display: flex;
+    width: 100%;
+}
+.nav-central>form>input{
+    width: 100%;
+    outline: none;
+    background-color: transparent;
+    flex: 1;
+    margin-left: 15px;
+    font-size: large;
+    border: none;
+}
+div.nav-right {
+    display: flex;
+    flex-grow: .5;
+    justify-content: flex-end;
+    align-items: center;
+}
+.nav-right>h2{
+    display: flex;
+    margin: .5%;
+    padding: 1%;
+    color: white;
+    position: relative;
+    border-radius: 10%;
+}
+div.vertical-bar {
+    border-left: 1px solid #4a4a4c;
+    height: 3rem;
+    display: flex;
+    flex-grow: 0;
+}
+.nav-logo>input {
+    display: inline;
+    background-color: #ffffff00;
+    position: absolute;
+    border: none;
+    width: 100%;
+}
+.nav-right>h2>a {
+    all: inherit;
+    color: white;
+    text-decoration: none;
+    cursor: pointer;
+}
+.nav-right>h2:hover {
+    background-color: #822433;
+    cursor: pointer;
+}
+.nav-left>h2>form>input {
+    display: inline;
+    background-color: #ffffff00;
+    position: absolute;
+    border: none;
+    width: 100%;
+}
+
+.nav-right>h2>form {
+    display: flex;
+}
+.nav-right>h2>form>input{
+    display: flex;
+    flex: 1;
+    background-color: #ffffff00;
+    position: absolute;
+    border: none;
+    width: 100%;
+    height: 100%;
+}
+/*Menu fixed sulla sinistra*/
+.sidebar {
+    padding: 10px;
+    width: 12%;
+    background-color: #1f1f23;
+    display: flex;
+    flex-direction: column;
+    overflow: auto; 
+    height: 80vh;
+    padding-bottom: 100%;
+}
+.sidebar>h5{
+    margin-top: 1%;
+    margin-bottom: 1%;
+    color: white;
+}
+a.opzione {
+    all: inherit;
+    color: white;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+a.opzionetab {
+    all: inherit;
+    color: white;
+    text-decoration: none;
+    cursor: pointer;
+    margin-left: 0.5%;
+}
+a.opzione:hover {
+    background-color: rgba(0, 255, 255, 0.67);
+    width: 110%;
+    height: 110%;
+    font-size: 110%;
+    transition: width 1s, height 1s;
+    border-radius: 9px;
+}
+a.opzionetab:hover {
+    background-color: rgba(0, 255, 255, 0.67);
+    width: 110%;
+    height: 110%;
+    font-size: 110%;
+    transition: width 1s, height 1s;
+    border-radius: 9px;
+}
+/*corpo della pagina*/
+div.central-block {
+    display: flex;
+    height: 100%;
+}
+div.body {
+    width: 70%;
+    padding-top: 2%;
+    display: flex;
+    flex: 1;   
+    overflow: scroll;
+    height: 87vh;
+    flex-direction: column;
+    padding-bottom: 2%;
+}
+div.body-title {
+    display: flex;
+    align-content: right;
+}
+div.body-title>h2 {
+    color: black;
+    margin-left: 20px;
+}
+div.body>table {
+    margin-left: 3%; 
+    margin-right: 3%;
+}
+tr.blackBar {
+    background-color: black;
+}
+hr.redBar {
+    display:flex;
+    width: 96%;               
+    background-color:red;
+    height: 5px;
+    border-radius: 5px;
+}
+h3.voceElenco {
+    margin-left: 7%;
+}
+/*contenitore blocco esami*/
+div.container-esami {
+    justify-content: center; 
+    display: flex; 
+    flex-wrap: wrap;
+    padding-bottom: 10%;
+}
+div.container-home {
+    justify-content: center; 
+    display: flex; 
+    flex-wrap: wrap;
+    padding-bottom: 5%;
+}
+div.container-admin {
+    justify-content: center; 
+    display: flex; 
+    flex-wrap: wrap;
+    padding-top: 3%;
+}
+div.blocco-esame {
+    margin: 1%;
+    width: 450px;
+    height: 150px;
+    border-radius: 20px;
+    display: flex; 
+    flex-direction: column;
+    padding: 1em;
+    background-color: aqua;
+    align-content: space-around;
+    align-items: center;
+}
+div.blocco-home {
+    margin: 5%;
+    width: 450px;
+    height: 150px;
+    border-radius: 20px;
+    display: flex; 
+    flex-direction: column;
+    padding: 1em;
+    background-color: firebrick;
+    align-content: space-around;
+    align-items: center;
+}
+div.blocco-home>a {
+    color:white;
+    font-weight: bold;
+    font-size: 150%;
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+input.button-iscrizione {
+    width: 250px;
+    height: 50px;
+    font-weight: bold;
+    font-size: large;
+    margin: 2ex;
+    cursor: pointer;
+}
+input.button-iscrizione:hover {
+    background-color:honeydew;
+}
+
+div.zero-esami_central {
+    text-align: center;
+    display: flexbox;
+    position: relative;
+    border-width: 3px;
+	border-style: ridge;     
+    border-color: firebrick;
+	margin-top: 5em;
+    margin-bottom: 2em;
+    margin-left: 1%;
+    margin-right: 1%;
+    min-width: 20%;
+    border-top-left-radius: 4%;
+    border-top-right-radius: 4%;
+    border-bottom-left-radius: 4%;
+    border-bottom-right-radius: 4%;
+    background-color: gainsboro;
+}
+.bottoneHome {
+    width: 200px;
+    height: 50px;
+    font-weight: bold;
+    font-size: large;
+    margin: 2ex;
+    cursor: pointer;
+}
+.bottoneHome:hover {
+    background-color:honeydew;
+}
+div.box-avviso {
+    text-align: center;
+    display: flexbox;
+    position: relative;
+    border-width: 3px;
+	border-style: ridge;     
+    border-color: firebrick;
+	margin-top: 5em;
+    margin-bottom: 2em;
+    margin-left: 20%;
+    margin-right: 20%;
+    min-width: 20%;
+    border-top-left-radius: 4%;
+    border-top-right-radius: 4%;
+    border-bottom-left-radius: 4%;
+    border-bottom-right-radius: 4%;
+    background-color: gainsboro;
+}
+
+/*contenitori di testo*/
+
+div.nome-esame {
+    justify-content: space-around;
+    display: inline-flex;
+    font-size: 1.1em;
+    font-weight: bold;
+}
+
+div.info-button {
+    display: inline-flex;
+    margin-top: 15%;
+    border: 2px solid black;
+    justify-content: center;
+    padding: 1%;
+    width: 30%;
+    cursor: pointer;
+    position: relative;
+}
+.info-button:hover {
+    background-color: rgba(0, 255, 255, 0.396);
+}
+.info-button>form>input {
+    top: 0;
+    left: 0;
+    background-color: #ffffff00;
+    position: absolute;
+    border: none;
+    width: 100%;
+    height: 100%;
+}
+span#pagetitle {
+    font-size: 2em;
+    font-weight: bold;
+    color: red;
+    overflow: hidden;
+}
+/* form inside H2*/
+h2.hForm {
+    display: flex;
+    color: #1b1b1b;
+    position: relative;
+    border-radius: 10%;
+}
+
+h3.hForm {
+    display: flex;
+    position: relative;
+    border-radius: 10%;
+}
+
+.hForm:hover {
+    background-color: #82243449;
+    cursor: pointer;
+}
+.hForm>form>input {
+    display: inline;
+    background-color: #ffffff00;
+    position: absolute;
+    border: none;
+    width: 100%;
+}
+
+.hForm>form {
+    display: flex;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+.hForm>form>input{
+    display: flex;
+    flex: 1;
+    background-color: #ffffff00;
+    position: absolute;
+    border: none;
+    width: 100%;
+    height: 100%;
+}
+/*media query
+@media screen and (max-width: 600px) {
+    body {
+      background-color: olive;
+    }  
+    
+    div.menu-fixed-container {
+        float: left;
+        height: 200px;
+        text-align: center;
+        display: flex;
+        text-overflow: wrap;
+    }
+    div.menu-tendina {
+        display: flex;
+        background-color: pink;
+        border-radius: 24px;
+        padding: 1.5%;
+        flex: 1;
+        flex-direction: column;
+    }
+  }
+*/

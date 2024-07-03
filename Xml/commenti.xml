@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<commenti xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="commenti.xsd">
+    <commento>
+        <id>1</id>
+        <corpo>Prova a rivederti la lezione, ti passo la registrazione.</corpo>
+        <matricolaStudente>4</matricolaStudente>
+        <accordoMedio>4.00</accordoMedio>
+        <idPost>1</idPost>
+        <data>2022-09-04</data>
+        <stato>1</stato>
+    </commento>
+    <commento>
+        <id>2</id>
+        <corpo>Grazie!!!</corpo>
+        <matricolaStudente>3</matricolaStudente>
+        <accordoMedio>0</accordoMedio>
+        <idPost>1</idPost>
+        <data>2022-09-04</data>
+        <stato>1</stato>
+    </commento>
+    <commento>
+        <id>3</id>
+        <corpo>Anche io stavo avendo problemi, grazie!</corpo>
+        <matricolaStudente>5</matricolaStudente>
+        <accordoMedio>0</accordoMedio>
+        <idPost>1</idPost>
+        <data>2022-09-04</data>
+        <stato>1</stato>
+    </commento>
+    <commento>
+        <id>4</id>
+        <corpo>Ti invio quello che ho!</corpo>
+        <matricolaStudente>5</matricolaStudente>
+        <accordoMedio>3.00</accordoMedio>
+        <idPost>5</idPost>
+        <data>2022-09-04</data>
+        <stato>1</stato>
+    </commento>
+    <commento>
+        <id>5</id>
+        <corpo>Non c'è di che!</corpo>
+        <matricolaStudente>4</matricolaStudente>
+        <accordoMedio>0</accordoMedio>
+        <idPost>1</idPost>
+        <data>2022-09-07</data>
+        <stato>1</stato>
+    </commento>
+    <commento>
+        <id>6</id>
+        <corpo>Se ti interessa, sto vendendo il mio, soltanto che è l'edizione vecchia!</corpo>
+        <matricolaStudente>4</matricolaStudente>
+        <accordoMedio>0</accordoMedio>
+        <idPost>7</idPost>
+        <data>2022-09-07</data>
+        <stato>1</stato>
+    </commento>
+    <commento>
+        <id>7</id>
+        <corpo>Grazie!</corpo>
+        <matricolaStudente>4</matricolaStudente>
+        <accordoMedio>0</accordoMedio>
+        <idPost>5</idPost>
+        <data>2022-09-07</data>
+        <stato>1</stato>
+    </commento>
+    <commento>
+        <id>8</id>
+        <corpo>Ti consiglio di consultare i classroom degli anni passati.</corpo>
+        <matricolaStudente>4</matricolaStudente>
+        <accordoMedio>4.00</accordoMedio>
+        <idPost>4</idPost>
+        <data>2022-09-07</data>
+        <stato>1</stato>
+    </commento>
+    <commento>
+        <id>9</id>
+        <corpo>Grazie, anche io le stavo cercando!</corpo>
+        <matricolaStudente>11</matricolaStudente>
+        <accordoMedio>0</accordoMedio>
+        <idPost>4</idPost>
+        <data>2022-09-07</data>
+        <stato>1</stato>
+    </commento>
+    <commento>
+        <id>10</id>
+        <corpo>Di consiglio di consultare le dispense del prof Prova. Le trovi online e sono fatte molto bene!</corpo>
+        <matricolaStudente>12</matricolaStudente>
+        <accordoMedio>4.00</accordoMedio>
+        <idPost>10</idPost>
+        <data>2022-09-07</data>
+        <stato>1</stato>
+    </commento>
+    <commento>
+        <id>11</id>
+        <corpo>Probabilmente è dovuto alla cache del dbms!</corpo>
+        <matricolaStudente>3</matricolaStudente>
+        <accordoMedio>0</accordoMedio>
+        <idPost>9</idPost>
+        <data>2022-09-07</data>
+        <stato>1</stato>
+    </commento>
+    <commento>
+        <id>12</id>
+        <corpo>Sto trovando molto utili quella dispensa, grazie per averla condivisa!</corpo>
+        <matricolaStudente>3</matricolaStudente>
+        <accordoMedio>0</accordoMedio>
+        <idPost>10</idPost>
+        <data>2022-09-07</data>
+        <stato>1</stato>
+    </commento>
+    <commento>
+        <id>13</id>
+        <corpo>Studiati le esercitazioni visto che ricoprono tutti i possibili esercizi che possono uscire all'esame!</corpo>
+        <matricolaStudente>3</matricolaStudente>
+        <accordoMedio>0</accordoMedio>
+        <idPost>11</idPost>
+        <data>2022-09-07</data>
+        <stato>1</stato>
+    </commento>
+    <commento>
+        <id>14</id>
+        <corpo>Non è indispensabile ma personalmente lo consiglierei. Ricopre tutti gli argomenti fatti durante il corso e mette a disposizione molti esercizi.</corpo>
+        <matricolaStudente>3</matricolaStudente>
+        <accordoMedio>0</accordoMedio>
+        <idPost>13</idPost>
+        <data>2022-09-07</data>
+        <stato>1</stato>
+    </commento>
+    <commento>
+        <id>15</id>
+        <corpo>Sono sul vecchio sito del prof, questo è il link: -link-</corpo>
+        <matricolaStudente>3</matricolaStudente>
+        <accordoMedio>0</accordoMedio>
+        <idPost>16</idPost>
+        <data>2022-09-07</data>
+        <stato>1</stato>
+    </commento>
+</commenti>

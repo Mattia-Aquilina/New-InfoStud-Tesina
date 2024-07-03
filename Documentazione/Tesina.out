@@ -1,0 +1,62 @@
+\BOOKMARK [0][-]{chapter.1}{Introduzione e descrizione dei dati}{}% 1
+\BOOKMARK [1][-]{section.1.1}{Specifiche introduttive}{chapter.1}% 2
+\BOOKMARK [1][-]{section.1.2}{Funzionalit\340 specifiche}{chapter.1}% 3
+\BOOKMARK [2][-]{subsection.1.2.1}{Funzionalit\340 visitatore}{section.1.2}% 4
+\BOOKMARK [2][-]{subsection.1.2.2}{Funzionalit\340 studente}{section.1.2}% 5
+\BOOKMARK [2][-]{subsection.1.2.3}{Funzionalit\340 docente}{section.1.2}% 6
+\BOOKMARK [2][-]{subsection.1.2.4}{Funzionalit\340 segreteria}{section.1.2}% 7
+\BOOKMARK [2][-]{subsection.1.2.5}{Funzionalit\340 amministratore}{section.1.2}% 8
+\BOOKMARK [1][-]{section.1.3}{Strutture dati}{chapter.1}% 9
+\BOOKMARK [2][-]{subsection.1.3.1}{Anagrafica}{section.1.3}% 10
+\BOOKMARK [2][-]{subsection.1.3.2}{Struttura file xml}{section.1.3}% 11
+\BOOKMARK [1][-]{section.1.4}{Definizioni XML}{chapter.1}% 12
+\BOOKMARK [0][-]{chapter.2}{Manuale utente}{}% 13
+\BOOKMARK [1][-]{section.2.1}{Utente visitatore}{chapter.2}% 14
+\BOOKMARK [2][-]{subsection.2.1.1}{Visualizzare i corsi di laurea}{section.2.1}% 15
+\BOOKMARK [2][-]{subsection.2.1.2}{Visualizzare i corsi}{section.2.1}% 16
+\BOOKMARK [2][-]{subsection.2.1.3}{Visualizzare i docenti}{section.2.1}% 17
+\BOOKMARK [2][-]{subsection.2.1.4}{Autenticarsi}{section.2.1}% 18
+\BOOKMARK [2][-]{subsection.2.1.5}{Registrarsi}{section.2.1}% 19
+\BOOKMARK [1][-]{section.2.2}{Studente}{chapter.2}% 20
+\BOOKMARK [2][-]{subsection.2.2.1}{Visualizzare l'anagrafica}{section.2.2}% 21
+\BOOKMARK [2][-]{subsection.2.2.2}{Visualizzare la carriera}{section.2.2}% 22
+\BOOKMARK [2][-]{subsection.2.2.3}{Visualizzare gli appelli prenotati}{section.2.2}% 23
+\BOOKMARK [2][-]{subsection.2.2.4}{Visualizzare gli esami sostenuti}{section.2.2}% 24
+\BOOKMARK [2][-]{subsection.2.2.5}{Prenotare gli appelli}{section.2.2}% 25
+\BOOKMARK [2][-]{subsection.2.2.6}{Accedere alle bacheche}{section.2.2}% 26
+\BOOKMARK [2][-]{subsection.2.2.7}{Accedere alle FAQ}{section.2.2}% 27
+\BOOKMARK [1][-]{section.2.3}{Docente}{chapter.2}% 28
+\BOOKMARK [2][-]{subsection.2.3.1}{Visualizzare l'anagrafica}{section.2.3}% 29
+\BOOKMARK [2][-]{subsection.2.3.2}{Visualizzare gli appelli}{section.2.3}% 30
+\BOOKMARK [2][-]{subsection.2.3.3}{Inserire un appello}{section.2.3}% 31
+\BOOKMARK [2][-]{subsection.2.3.4}{Verbalizzare gli esami}{section.2.3}% 32
+\BOOKMARK [2][-]{subsection.2.3.5}{Accedere alle FAQ}{section.2.3}% 33
+\BOOKMARK [1][-]{section.2.4}{Segretario}{chapter.2}% 34
+\BOOKMARK [2][-]{subsection.2.4.1}{Visualizzare l'anagrafica}{section.2.4}% 35
+\BOOKMARK [2][-]{subsection.2.4.2}{Visualizzare gli appelli}{section.2.4}% 36
+\BOOKMARK [2][-]{subsection.2.4.3}{Inserire un appello}{section.2.4}% 37
+\BOOKMARK [2][-]{subsection.2.4.4}{Verbalizzare gli esami}{section.2.4}% 38
+\BOOKMARK [2][-]{subsection.2.4.5}{Accedere alle bacheche}{section.2.4}% 39
+\BOOKMARK [2][-]{subsection.2.4.6}{Accedere alle FAQ}{section.2.4}% 40
+\BOOKMARK [1][-]{section.2.5}{Amministratore}{chapter.2}% 41
+\BOOKMARK [2][-]{subsection.2.5.1}{Visualizzare l'anagrafica}{section.2.5}% 42
+\BOOKMARK [2][-]{subsection.2.5.2}{Visualizzare gli appelli}{section.2.5}% 43
+\BOOKMARK [2][-]{subsection.2.5.3}{Inserire un appello}{section.2.5}% 44
+\BOOKMARK [2][-]{subsection.2.5.4}{Verbalizzare gli esami}{section.2.5}% 45
+\BOOKMARK [2][-]{subsection.2.5.5}{Accedere alle bacheche}{section.2.5}% 46
+\BOOKMARK [2][-]{subsection.2.5.6}{Accedere alle FAQ}{section.2.5}% 47
+\BOOKMARK [2][-]{subsection.2.5.7}{Gestire le utenze}{section.2.5}% 48
+\BOOKMARK [2][-]{subsection.2.5.8}{Inserire un corso di laurea}{section.2.5}% 49
+\BOOKMARK [2][-]{subsection.2.5.9}{Gestire i corsi di laurea}{section.2.5}% 50
+\BOOKMARK [2][-]{subsection.2.5.10}{Inserire un corso}{section.2.5}% 51
+\BOOKMARK [2][-]{subsection.2.5.11}{Gestire i corsi}{section.2.5}% 52
+\BOOKMARK [0][-]{chapter.3}{Programmazione}{}% 53
+\BOOKMARK [1][-]{section.3.1}{Script per pagine web}{chapter.3}% 54
+\BOOKMARK [1][-]{section.3.2}{Script di lavoro}{chapter.3}% 55
+\BOOKMARK [1][-]{section.3.3}{Script dichiarativi}{chapter.3}% 56
+\BOOKMARK [1][-]{section.3.4}{Script di definizione dello stile}{chapter.3}% 57
+\BOOKMARK [0][-]{chapter.4}{Elenco utenze}{}% 58
+\BOOKMARK [1][-]{section.4.1}{Utenze - Studente}{chapter.4}% 59
+\BOOKMARK [1][-]{section.4.2}{Utenze - Docente}{chapter.4}% 60
+\BOOKMARK [1][-]{section.4.3}{Utenze - Segretario}{chapter.4}% 61
+\BOOKMARK [1][-]{section.4.4}{Utenze - Amministratore}{chapter.4}% 62

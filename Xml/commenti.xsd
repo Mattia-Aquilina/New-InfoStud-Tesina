@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+    <xsd:element name="commenti">
+        <xsd:complexType>
+            <xsd:sequence>
+                <xsd:element ref="commento" maxOccurs="unbounded" />
+            </xsd:sequence>
+        </xsd:complexType>
+    </xsd:element>
+    <xsd:element name="commento"> <!-- singola "riga" della tabella -->
+    <xsd:complexType>
+        <xsd:sequence>
+        <xsd:element ref="id" minOccurs="1" maxOccurs="1" /> <!-- forse è un attributo? -->
+        <xsd:element ref="corpo"  minOccurs="1" maxOccurs="1" />
+        <xsd:element ref="matricolaStudente" minOccurs="1" maxOccurs="1" />
+        <xsd:element ref="accordoMedio" minOccurs="1" maxOccurs="1" />
+        <xsd:element ref="idPost" minOccurs="1" maxOccurs="1" />
+        <xsd:element ref="data" minOccurs="1" maxOccurs="1" />
+        <xsd:element ref="stato" minOccurs="1" maxOccurs="1"/>
+        </xsd:sequence>   
+    </xsd:complexType>
+    </xsd:element>
+    <xsd:element name="id" type="xsd:integer"/>
+    <xsd:element name="corpo" type="xsd:string"/>
+    <xsd:element name="matricolaStudente" type="xsd:integer"/>
+    <xsd:element name="accordoMedio" type="xsd:float"/>
+    <xsd:element name="idPost" type="xsd:integer"/>
+    <xsd:element name="data" type="xsd:string"/>
+    <xsd:element name="stato" type="xsd:string"/>
+</xsd:schema>

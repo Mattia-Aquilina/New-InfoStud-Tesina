@@ -1,0 +1,42 @@
+div.infoTitle {
+    padding: .7%;
+    display: flex;
+    flex-direction: row;
+    height: fit-content;
+}
+
+div.infoTitle-position {
+    display: flex;
+    flex-grow: .5;
+    align-items: center;
+    align-content: flex-start;
+}
+.infoTitle-position>h2 {
+    display: flex;
+}
+div.infoTitle-user{ 
+    display: flex;
+    flex-grow: .5;
+    align-items: center;
+    justify-content: flex-end;
+}
+.infoTitle-user>h2 {
+    display: flex;
+    margin-right: 3%;
+}
+.body>hr {
+  display:flex;
+  width: 96%;               
+  background-color:red;
+  height: 5px;
+  border-radius: 2px;
+}
+
+div.infoVoice {
+    align-items: flex-start;
+    width: 170%;
+    margin: 1%;
+    display: flex;
+    height: fit-content;
+}
+    

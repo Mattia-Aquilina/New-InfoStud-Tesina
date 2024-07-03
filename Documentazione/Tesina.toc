@@ -1,0 +1,197 @@
+\babel@toc {italian}{}
+\babel@toc {italian}{}
+\contentsline {chapter}{\numberline {1}Introduzione e descrizione dei dati}{5}{chapter.1}%
+\contentsline {section}{\numberline {1.1}Specifiche introduttive}{5}{section.1.1}%
+\contentsline {section}{\numberline {1.2}Funzionalità specifiche}{8}{section.1.2}%
+\contentsline {subsection}{\numberline {1.2.1}Funzionalità visitatore}{8}{subsection.1.2.1}%
+\contentsline {subsubsection}{Login e registrazione}{8}{section*.2}%
+\contentsline {subsubsection}{Visualizzazione di corsi ed esami}{8}{section*.3}%
+\contentsline {subsection}{\numberline {1.2.2}Funzionalità studente}{9}{subsection.1.2.2}%
+\contentsline {subsubsection}{Visualizzazione informazioni personali}{9}{section*.4}%
+\contentsline {subsubsection}{Gestione delle prenotazioni degli appelli}{10}{section*.5}%
+\contentsline {subsubsection}{Utilizzo della bacheca dei corsi}{10}{section*.6}%
+\contentsline {subsubsection}{Recensione di post e commenti}{11}{section*.7}%
+\contentsline {subsubsection}{Utilizzo del sistema delle FAQ}{11}{section*.8}%
+\contentsline {subsection}{\numberline {1.2.3}Funzionalità docente}{12}{subsection.1.2.3}%
+\contentsline {subsubsection}{Gestione degli appelli ed esami}{12}{section*.9}%
+\contentsline {subsubsection}{Utilizzo del sistema delle FAQ}{12}{section*.10}%
+\contentsline {subsection}{\numberline {1.2.4}Funzionalità segreteria}{13}{subsection.1.2.4}%
+\contentsline {subsubsection}{Moderazione delle bacheche}{13}{section*.11}%
+\contentsline {subsubsection}{Moderazione delle FAQ}{13}{section*.12}%
+\contentsline {subsubsection}{Gestione degli appelli}{13}{section*.13}%
+\contentsline {subsection}{\numberline {1.2.5}Funzionalità amministratore}{14}{subsection.1.2.5}%
+\contentsline {subsubsection}{Gestione degli account utenti}{14}{section*.14}%
+\contentsline {subsubsection}{Moderazione delle bacheche}{14}{section*.15}%
+\contentsline {subsubsection}{Moderazione delle FAQ}{14}{section*.16}%
+\contentsline {subsubsection}{Gestione degli appelli}{15}{section*.17}%
+\contentsline {section}{\numberline {1.3}Strutture dati}{15}{section.1.3}%
+\contentsline {subsection}{\numberline {1.3.1}Anagrafica}{15}{subsection.1.3.1}%
+\contentsline {subsection}{\numberline {1.3.2}Struttura file xml}{16}{subsection.1.3.2}%
+\contentsline {subsubsection}{Amministrazione}{16}{section*.18}%
+\contentsline {subsubsection}{Appelli}{17}{section*.19}%
+\contentsline {subsubsection}{Commenti}{18}{section*.20}%
+\contentsline {subsubsection}{Corsi}{19}{section*.21}%
+\contentsline {subsubsection}{Corsi di laurea}{21}{section*.22}%
+\contentsline {subsubsection}{Docenti}{22}{section*.23}%
+\contentsline {subsubsection}{FAQs}{23}{section*.24}%
+\contentsline {subsubsection}{POSTs}{24}{section*.25}%
+\contentsline {subsubsection}{Prenotazioni}{26}{section*.26}%
+\contentsline {subsubsection}{Segreteria}{27}{section*.27}%
+\contentsline {subsubsection}{Studenti}{28}{section*.28}%
+\contentsline {subsubsection}{VotoCommento}{30}{section*.29}%
+\contentsline {subsubsection}{VotoFAQ}{31}{section*.30}%
+\contentsline {subsubsection}{VotoPost}{33}{section*.31}%
+\contentsline {section}{\numberline {1.4}Definizioni XML}{34}{section.1.4}%
+\contentsline {subsubsection}{accordoMedio - commenti.xml}{34}{section*.32}%
+\contentsline {subsubsection}{accordo - votoCommento.xml}{34}{section*.33}%
+\contentsline {subsubsection}{utilitaTotale - FAQs.xml}{35}{section*.34}%
+\contentsline {subsubsection}{utilitaTotale - posts.xml}{35}{section*.35}%
+\contentsline {subsubsection}{utilita - votoFAQ.xml}{35}{section*.36}%
+\contentsline {subsubsection}{utilita - votoPost.xml}{35}{section*.37}%
+\contentsline {subsubsection}{cfuTotale - studenti.xml}{36}{section*.38}%
+\contentsline {subsubsection}{cfu - corsi.xml}{36}{section*.39}%
+\contentsline {subsubsection}{reputazioneTotale - studenti.xml}{36}{section*.40}%
+\contentsline {subsubsection}{matricolaStudente - posts.xml}{36}{section*.41}%
+\contentsline {subsubsection}{matricolaDocente - corsi.xml}{36}{section*.42}%
+\contentsline {subsubsection}{esito - prenotazioni.xml}{36}{section*.43}%
+\contentsline {chapter}{\numberline {2}Manuale utente}{37}{chapter.2}%
+\contentsline {section}{\numberline {2.1}Utente visitatore}{37}{section.2.1}%
+\contentsline {subsection}{\numberline {2.1.1}Visualizzare i corsi di laurea}{37}{subsection.2.1.1}%
+\contentsline {subsection}{\numberline {2.1.2}Visualizzare i corsi}{38}{subsection.2.1.2}%
+\contentsline {subsection}{\numberline {2.1.3}Visualizzare i docenti}{40}{subsection.2.1.3}%
+\contentsline {subsection}{\numberline {2.1.4}Autenticarsi}{42}{subsection.2.1.4}%
+\contentsline {subsection}{\numberline {2.1.5}Registrarsi}{43}{subsection.2.1.5}%
+\contentsline {section}{\numberline {2.2}Studente}{43}{section.2.2}%
+\contentsline {subsection}{\numberline {2.2.1}Visualizzare l'anagrafica}{44}{subsection.2.2.1}%
+\contentsline {subsection}{\numberline {2.2.2}Visualizzare la carriera}{44}{subsection.2.2.2}%
+\contentsline {subsection}{\numberline {2.2.3}Visualizzare gli appelli prenotati}{45}{subsection.2.2.3}%
+\contentsline {subsection}{\numberline {2.2.4}Visualizzare gli esami sostenuti}{45}{subsection.2.2.4}%
+\contentsline {subsection}{\numberline {2.2.5}Prenotare gli appelli}{47}{subsection.2.2.5}%
+\contentsline {subsection}{\numberline {2.2.6}Accedere alle bacheche}{48}{subsection.2.2.6}%
+\contentsline {subsubsection}{Interagire con i post}{50}{section*.44}%
+\contentsline {subsection}{\numberline {2.2.7}Accedere alle FAQ}{51}{subsection.2.2.7}%
+\contentsline {section}{\numberline {2.3}Docente}{53}{section.2.3}%
+\contentsline {subsection}{\numberline {2.3.1}Visualizzare l'anagrafica}{53}{subsection.2.3.1}%
+\contentsline {subsection}{\numberline {2.3.2}Visualizzare gli appelli}{54}{subsection.2.3.2}%
+\contentsline {subsubsection}{Modificare un appello}{54}{section*.45}%
+\contentsline {subsubsection}{Eliminare un appello}{55}{section*.46}%
+\contentsline {subsection}{\numberline {2.3.3}Inserire un appello}{57}{subsection.2.3.3}%
+\contentsline {subsection}{\numberline {2.3.4}Verbalizzare gli esami}{58}{subsection.2.3.4}%
+\contentsline {subsection}{\numberline {2.3.5}Accedere alle FAQ}{59}{subsection.2.3.5}%
+\contentsline {subsubsection}{Interagire con le FAQ}{60}{section*.47}%
+\contentsline {section}{\numberline {2.4}Segretario}{61}{section.2.4}%
+\contentsline {subsection}{\numberline {2.4.1}Visualizzare l'anagrafica}{61}{subsection.2.4.1}%
+\contentsline {subsection}{\numberline {2.4.2}Visualizzare gli appelli}{62}{subsection.2.4.2}%
+\contentsline {subsubsection}{Modificare un appello}{63}{section*.48}%
+\contentsline {subsubsection}{Eliminare un appello}{63}{section*.49}%
+\contentsline {subsection}{\numberline {2.4.3}Inserire un appello}{64}{subsection.2.4.3}%
+\contentsline {subsection}{\numberline {2.4.4}Verbalizzare gli esami}{64}{subsection.2.4.4}%
+\contentsline {subsection}{\numberline {2.4.5}Accedere alle bacheche}{66}{subsection.2.4.5}%
+\contentsline {subsubsection}{Interagire con i post}{67}{section*.50}%
+\contentsline {subsection}{\numberline {2.4.6}Accedere alle FAQ}{68}{subsection.2.4.6}%
+\contentsline {section}{\numberline {2.5}Amministratore}{69}{section.2.5}%
+\contentsline {subsection}{\numberline {2.5.1}Visualizzare l'anagrafica}{69}{subsection.2.5.1}%
+\contentsline {subsection}{\numberline {2.5.2}Visualizzare gli appelli}{70}{subsection.2.5.2}%
+\contentsline {subsubsection}{Modificare un appello}{71}{section*.51}%
+\contentsline {subsubsection}{Eliminare un appello}{71}{section*.52}%
+\contentsline {subsection}{\numberline {2.5.3}Inserire un appello}{71}{subsection.2.5.3}%
+\contentsline {subsection}{\numberline {2.5.4}Verbalizzare gli esami}{72}{subsection.2.5.4}%
+\contentsline {subsection}{\numberline {2.5.5}Accedere alle bacheche}{73}{subsection.2.5.5}%
+\contentsline {subsubsection}{Interagire con i post}{74}{section*.53}%
+\contentsline {subsection}{\numberline {2.5.6}Accedere alle FAQ}{74}{subsection.2.5.6}%
+\contentsline {subsection}{\numberline {2.5.7}Gestire le utenze}{75}{subsection.2.5.7}%
+\contentsline {subsubsection}{Modificare un'utenza}{75}{section*.54}%
+\contentsline {subsubsection}{Sospendere o riabilitare un'utenza}{78}{section*.55}%
+\contentsline {subsubsection}{Eliminare un'utenza}{79}{section*.56}%
+\contentsline {subsection}{\numberline {2.5.8}Inserire un corso di laurea}{79}{subsection.2.5.8}%
+\contentsline {subsection}{\numberline {2.5.9}Gestire i corsi di laurea}{79}{subsection.2.5.9}%
+\contentsline {subsubsection}{Modificare un corso di laurea}{81}{section*.57}%
+\contentsline {subsubsection}{Eliminare un corso di laurea}{81}{section*.58}%
+\contentsline {subsection}{\numberline {2.5.10}Inserire un corso}{82}{subsection.2.5.10}%
+\contentsline {subsection}{\numberline {2.5.11}Gestire i corsi}{82}{subsection.2.5.11}%
+\contentsline {subsubsection}{Modificare un corso}{83}{section*.59}%
+\contentsline {subsubsection}{Eliminare un corso di laurea}{83}{section*.60}%
+\contentsline {chapter}{\numberline {3}Programmazione}{85}{chapter.3}%
+\contentsline {section}{\numberline {3.1}Script per pagine web}{85}{section.3.1}%
+\contentsline {subsubsection}{avvisoCorrispondenze.php}{85}{section*.61}%
+\contentsline {subsubsection}{avvisoErrore.php}{86}{section*.62}%
+\contentsline {subsubsection}{avvisoOK.php}{86}{section*.63}%
+\contentsline {subsubsection}{form-registrazione.php}{86}{section*.64}%
+\contentsline {subsubsection}{gestionePrenotazioni.php}{87}{section*.65}%
+\contentsline {subsubsection}{gestioneUtenza.php}{87}{section*.66}%
+\contentsline {subsubsection}{gestioneCorsi.php}{88}{section*.67}%
+\contentsline {subsubsection}{gestioneCorsiDiLaurea.php}{88}{section*.68}%
+\contentsline {subsubsection}{homepage-bacheca.php}{89}{section*.69}%
+\contentsline {subsubsection}{homepage-faq.php}{89}{section*.70}%
+\contentsline {subsubsection}{homepage-users-appelliPrenotati.php}{90}{section*.71}%
+\contentsline {subsubsection}{homepage-users-Carriera.php}{90}{section*.72}%
+\contentsline {subsubsection}{homepage-users-esamiSostenuti.php}{91}{section*.73}%
+\contentsline {subsubsection}{homapage-users-prenotaAppello.php}{91}{section*.74}%
+\contentsline {subsubsection}{homapage-users-visualizzaBacheca.php}{92}{section*.75}%
+\contentsline {subsubsection}{homapage-users-visualizzaFaq.php}{92}{section*.76}%
+\contentsline {subsubsection}{homapage-users-visualizzaPost.php}{93}{section*.77}%
+\contentsline {subsubsection}{homapage-users.php}{95}{section*.78}%
+\contentsline {subsubsection}{homapage.php}{96}{section*.79}%
+\contentsline {subsubsection}{index.php}{96}{section*.80}%
+\contentsline {subsubsection}{inserisciAppello.php}{96}{section*.81}%
+\contentsline {subsubsection}{inserisciCorso.php}{97}{section*.82}%
+\contentsline {subsubsection}{inserisciCorsoDiLaurea.php}{97}{section*.83}%
+\contentsline {subsubsection}{login.php}{97}{section*.84}%
+\contentsline {subsubsection}{modificaAppello.php}{98}{section*.85}%
+\contentsline {subsubsection}{modificaCorso.php}{98}{section*.86}%
+\contentsline {subsubsection}{modificaCorsoDiLaurea.php}{98}{section*.87}%
+\contentsline {subsubsection}{modificaPassword.php}{99}{section*.88}%
+\contentsline {subsubsection}{modificaUtenza.php}{99}{section*.89}%
+\contentsline {subsubsection}{verbalizza-script.php}{99}{section*.90}%
+\contentsline {subsubsection}{visualizzaAppelli.php}{100}{section*.91}%
+\contentsline {subsubsection}{visualizzaCorsi.php}{100}{section*.92}%
+\contentsline {subsubsection}{visualizzaCorsiDaCorsoDiLaurea.php}{101}{section*.93}%
+\contentsline {subsubsection}{visualizzaCorsiDiLaurea.php}{101}{section*.94}%
+\contentsline {subsubsection}{visualizzaDocenti.php}{101}{section*.95}%
+\contentsline {subsubsection}{visualizzaDocentiAdmin.php}{102}{section*.96}%
+\contentsline {subsubsection}{visualizzaInfoCorso.php}{102}{section*.97}%
+\contentsline {subsubsection}{visualizzaPrenotazioni.php}{102}{section*.98}%
+\contentsline {subsubsection}{visualizzaSegreteriaAdmin.php}{102}{section*.99}%
+\contentsline {subsubsection}{visualizzaStudentiAdmin.php}{103}{section*.100}%
+\contentsline {section}{\numberline {3.2}Script di lavoro}{103}{section.3.2}%
+\contentsline {subsubsection}{ajaxHandler.php}{103}{section*.101}%
+\contentsline {subsubsection}{deleteComment.php}{104}{section*.102}%
+\contentsline {subsubsection}{deleteFaq.php}{104}{section*.103}%
+\contentsline {subsubsection}{deletePost.php}{104}{section*.104}%
+\contentsline {subsubsection}{eliminaAppello-script.php}{104}{section*.105}%
+\contentsline {subsubsection}{eliminaCorsoDiLaurea-script.php}{104}{section*.106}%
+\contentsline {subsubsection}{eliminaCorso-script.php}{105}{section*.107}%
+\contentsline {subsubsection}{eliminaPrenotazioneAppello.php}{105}{section*.108}%
+\contentsline {subsubsection}{eliminaUtenza-script.php}{105}{section*.109}%
+\contentsline {subsubsection}{insertComment.php}{105}{section*.110}%
+\contentsline {subsubsection}{insertFaq.php}{105}{section*.111}%
+\contentsline {subsubsection}{insertPost.php}{106}{section*.112}%
+\contentsline {subsubsection}{prenotaAppello-script.php}{106}{section*.113}%
+\contentsline {subsubsection}{riabilitaStudente.php}{106}{section*.114}%
+\contentsline {subsubsection}{sospendiStudente.php}{106}{section*.115}%
+\contentsline {subsubsection}{votaFaq.php}{107}{section*.116}%
+\contentsline {subsubsection}{votaPost.php}{107}{section*.117}%
+\contentsline {section}{\numberline {3.3}Script dichiarativi}{107}{section.3.3}%
+\contentsline {subsubsection}{phpClasses.php}{107}{section*.118}%
+\contentsline {subsubsection}{phpFunctions-delete.php}{108}{section*.119}%
+\contentsline {subsubsection}{phpFunctions-display.php}{109}{section*.120}%
+\contentsline {subsubsection}{phpFunctions-get.php}{109}{section*.121}%
+\contentsline {subsubsection}{phpFunctions-insert.php}{111}{section*.122}%
+\contentsline {subsubsection}{phpFunctions-login.php}{112}{section*.123}%
+\contentsline {subsubsection}{phpFunctions-misc.php}{113}{section*.124}%
+\contentsline {subsubsection}{phpFunctions-modify.php}{114}{section*.125}%
+\contentsline {section}{\numberline {3.4}Script di definizione dello stile}{115}{section.3.4}%
+\contentsline {subsubsection}{stile-amministrazione.css}{115}{section*.126}%
+\contentsline {subsubsection}{stile-base.css}{115}{section*.127}%
+\contentsline {subsubsection}{stile-visualizza-esame.css}{116}{section*.128}%
+\contentsline {subsubsection}{stileBacheca.css}{116}{section*.129}%
+\contentsline {subsubsection}{stileFaq.css}{116}{section*.130}%
+\contentsline {subsubsection}{stileHomepage-users.css}{117}{section*.131}%
+\contentsline {subsubsection}{stileLogin.css}{117}{section*.132}%
+\contentsline {subsubsection}{stileVisualizzazioneLista.css}{117}{section*.133}%
+\contentsline {subsubsection}{stilePost.css}{117}{section*.134}%
+\contentsline {chapter}{\numberline {4}Elenco utenze}{119}{chapter.4}%
+\contentsline {section}{\numberline {4.1}Utenze - Studente}{119}{section.4.1}%
+\contentsline {section}{\numberline {4.2}Utenze - Docente}{120}{section.4.2}%
+\contentsline {section}{\numberline {4.3}Utenze - Segretario}{120}{section.4.3}%
+\contentsline {section}{\numberline {4.4}Utenze - Amministratore}{120}{section.4.4}%

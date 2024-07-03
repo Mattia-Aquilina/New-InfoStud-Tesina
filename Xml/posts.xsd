@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+    <xsd:element name="posts">
+        <xsd:complexType>
+            <xsd:sequence>
+                <xsd:element ref="post" maxOccurs="unbounded" />
+            </xsd:sequence>
+        </xsd:complexType>
+    </xsd:element>
+    <xsd:element name="post"> <!-- singola "riga" della tabella -->
+    <xsd:complexType>
+        <xsd:sequence>
+        <xsd:element ref="id" minOccurs="1" maxOccurs="1" /> <!-- forse è un attributo? -->
+        <xsd:element ref="titolo" minOccurs="1" maxOccurs="1" />
+        <xsd:element ref="corpo"  minOccurs="1" maxOccurs="1" />
+        <xsd:element ref="matricolaStudente" minOccurs="1" maxOccurs="1" />
+        <xsd:element ref="utilitaTotale" minOccurs="1" maxOccurs="1" />
+        <xsd:element ref="idCorso" minOccurs="1" maxOccurs="1" />
+        <xsd:element ref="data" minOccurs="1" maxOccurs="1" />
+        <xsd:element ref="stato" minOccurs="1" maxOccurs="1"/>
+        </xsd:sequence>   
+    </xsd:complexType>
+    </xsd:element>
+    <xsd:element name="id" type="xsd:integer"/>
+    <xsd:element name="titolo" type="xsd:string"/>
+    <xsd:element name="corpo" type="xsd:string"/>
+    <xsd:element name="matricolaStudente" type="xsd:integer"/>
+    <xsd:element name="utilitaTotale" type="xsd:integer"/>
+    <xsd:element name="idCorso" type="xsd:integer"/>
+    <xsd:element name="data" type="xsd:string"/>
+    <xsd:element name="stato" type="xsd:integer"/>
+</xsd:schema>

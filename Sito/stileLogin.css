@@ -1,0 +1,348 @@
+/*classe contente le regole di stile comuni a tutte le pagine del sito*/
+body.bodyLogin {
+    font-family: helvetica,arial,sans-serif;
+    background-image: url(sfondo.jpg);/*da decidere*/
+    background-size: cover;
+    background-position: top center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-color: white;
+    line-height: 1.5em;
+    margin: 0;
+    overflow: hidden;
+}
+/*Barra Di navigazione fissata in alto*/
+div.header {
+    top: 0;
+    border-bottom: 1px solid black;
+    background-color: #1b1b1b;
+    display: flex;
+    align-items: center;
+    z-index: 100;
+    width: 100%;
+    position:sticky;
+}
+div.nav-left {
+    display: flex;
+    align-items: center;
+    flex:1;
+}
+.header>div {
+    margin: 15px;
+}
+.nav-left>h2{
+    margin: 15px;
+    color: white;
+}
+div.nav-logo {
+    object-fit: contain;
+    margin-left: 20px;
+}
+div.nav-central{
+    background-color: #4a4a4c;
+    height: 3.5rem;
+    display: flex;
+    width: 25%;
+    border-radius: 8px;
+    overflow: hidden;
+    align-items: center;
+}
+.nav-central>input{
+    outline: none;
+    background-color: transparent;
+    flex: 1;
+    margin-left: 15px;
+    font-size: large;
+    border: none;
+}
+div.nav-right {
+    display: flex;
+    flex: 1;
+    justify-content: flex-end;
+}
+div.vertical-bar {
+    border-left: 1px solid #4a4a4c;
+    height: 3rem;
+}
+
+/*Menu fixed sulla sinistra*/
+.sidebar {
+    padding: 10px;
+    width: 10%;
+    background-color: #1f1f23;
+    display: flex;
+    flex-direction: column;
+}
+.sidebar>h5{
+    margin-top: 25px;
+    margin-bottom: 25px;
+    color: white;
+}
+a.opzione {
+    all: inherit;
+    color: white;
+    text-decoration: none;
+    cursor: pointer;
+}
+a.opzione:hover{
+    background-color: rgba(0, 255, 255, 0.67);
+}
+/*corpo della pagina*/
+div.central-block {
+    display: flex;
+    text-align: center;
+    overflow: hidden;
+}
+div.body {
+    padding-top: 2%;
+    display: flex;
+    flex: 1;
+    height: 70vh;
+    overflow-y: scroll;
+    flex-direction: column;
+}
+div.bodyReg {
+    padding-top: 2%;
+    display: flex;
+    flex: 1;
+    height: 70vh;
+    overflow-y: scroll;
+    flex-direction: column;
+    padding-bottom: 10%;
+}
+div.body-title {
+    display: flex;
+    text-align: center;
+    align-items: center;
+}
+/*contenitore blocco esami*/
+div.container-esami {
+    justify-content: center;  
+    display: flex; 
+    flex-wrap: wrap; 
+    width: 100%;
+}
+
+div.blocco-esame {
+    margin: 1%;
+    width: 450px;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    padding: 1em;
+    background-color: aqua;
+    align-content: space-around;
+    align-items: center;
+}
+
+/*contenitori di testo*/
+
+span#title {
+    padding:2%;
+    font-weight: bold;
+    color: red;
+    position: relative;
+    margin-left: 45%;
+    font-size: 200%;
+}
+span#titleReg {
+    padding:2%;
+    font-weight: bold;
+    color: red;
+    position: relative;
+    margin-left: 43%;
+    
+}
+span#logout {
+    padding: 2%;
+    float: right;
+    text-decoration: underline;
+    font-size: 1.7em;
+}
+
+span.nome-esame {
+    justify-content: space-around;
+    display: inline-flex;
+    font-size: 1.1em;
+    font-weight: bold;
+}
+
+span.info-button {
+    display: inline-flex;
+    margin-top: 15%;
+    border: 2px solid black;
+    justify-content: space-around;
+    padding: 1%;
+    width: 30%;
+}
+span#pagetitle {
+    font-size: 2em;
+    font-weight: bold;
+    color: red;
+    overflow: hidden;
+}
+/*media query*/
+@media screen and (max-width: 600px) {
+    body {
+      background-color: olive;
+    }  
+    
+    div.menu-fixed-container {
+        float: left;
+        height: 200px;
+        text-align: center;
+        display: flex;
+        text-overflow: wrap;
+    }
+    div.menu-tendina {
+        display: flex;
+        background-color: pink;
+        border-radius: 24px;
+        padding: 1.5%;
+        flex: 1;
+        flex-direction: column;
+    }
+  }
+
+/*eventi*/
+div.voci-tendina:hover {
+    background-color: rgba(0, 255, 255, 0.67);
+}
+
+
+h1, h2, h3, h4 {
+    cursor: default;
+}
+.box {
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+    position: relative;
+    border-width: 3px;
+	border-style: ridge;     
+    border-color: firebrick;
+	margin-top: 2em;
+    margin-bottom: 2em;
+    margin-left: 35%;
+    margin-right: 35%;
+    min-width: 20%;
+    border-radius: 4%;
+    background-color: gainsboro;
+    padding: 1%;
+}
+.boxReg {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    position: relative;
+    border-width: 3px;
+	border-style: ridge;     
+    border-color: firebrick;
+	margin-top: 2em;
+    margin-bottom: 2em;
+    margin-left: 30%;
+    margin-right: 30%;
+    min-width: 20%;
+    border-radius: 4%;
+    background-color: gainsboro;
+    padding: 1%;
+}
+div.regContainer {
+    display: flex; 
+    flex-direction: row; 
+    flex-wrap: wrap;
+    justify-content: center;
+}
+div.labels {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+div.inputs {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.bottoni {
+    width: 100px;
+    height: 50px;
+    font-weight: bold;
+    margin: 2ex;
+    cursor: pointer;
+    font-size: large;
+    border-radius: 9px;
+}
+.bottoni2 {
+    width: 100px;
+    height: 35px;
+    font-weight: bold;
+    margin: 2ex;
+    cursor: pointer;
+    font-size: small;
+    border-radius: 9px;
+}
+.bottoni:hover, .bottoni2:hover {
+    background-color:honeydew;
+}
+.bottoneHome {
+    width: 200px;
+    height: 50px;
+    font-weight: bold;
+    font-size: large;
+    margin: 2ex;
+    cursor: pointer;
+    border-radius: 9px;
+}
+.bottoneHome:hover {
+    background-color:honeydew;
+}
+.textField {
+    display: flex;
+    width: 200px;
+    height: 25px;
+    font-size: large;
+    margin: 1em;
+    border-radius: 5px;
+}
+.pwdField {
+    width: 150px;
+    height: 25px;
+    font-size: large;
+    margin: 1em;
+    border-radius: 5px;
+}
+.textField:hover {
+    background-color:honeydew;
+}
+div.materie {
+    margin-top: 1em;
+    margin-bottom: 1em;
+    margin-left: -15%;
+    margin-right: 10%;
+    
+}
+select.materie {
+    width: 60%;
+    height: 130%;
+    font-weight: bold;
+    font-size: large;
+    border-radius: 5px;
+    cursor: pointer;
+    border: solid 2px;
+}
+h2.title {
+    color: red;
+    text-align: center;
+    font-size: 200%;
+    font-weight: bold;
+}
+h2.error {
+    position: relative;
+    text-align: center;
+    font-size: 200%;
+    font-weight: bold;
+    color: blue;
+}

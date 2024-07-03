@@ -1,0 +1,214 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<corsi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="corsi.xsd">
+  <corso>
+    <id>1</id>
+    <nome>Basi di Dati</nome>
+    <matricolaDocente>1</matricolaDocente>
+    <matricolaCoDocente>0</matricolaCoDocente>
+    <descrizione>Il corso si propone di insegnare 1. aspetti teorici, consistenti in modelli e linguaggi di basi di dati, 2. metodologie di progetto, che consentiranno allo studente, una volta che siano acquisite, di affrontare e risolvere casi concreti, 3. tecnologie, consistenti in diversi strumenti software usati in modo combinato per la implementazione delle basi di dati, scegliendo strumenti diffusi nelle pratiche aziendali. Alla fine del corso lo studente sarà in grado di interagire con il destinatario di un'applicazione di basi di dati in modo da sintetizzare correttamente i requisiti e di sviluppare prima il progetto, poi l'applicazione stessa, scegliendo gli strumenti più idonei.</descrizione>
+    <colore>lightblue</colore>
+    <anno>3</anno>
+    <semestre>1</semestre>
+    <curriculum>Informatica</curriculum>
+    <cfu>9</cfu>
+    <ssd>ING/INF-04</ssd>
+    <idCorsoLaurea>1</idCorsoLaurea>
+    <stato>1</stato>
+  </corso>
+  <corso>
+    <id>3</id>
+    <nome>Teoria dei Segnali</nome>
+    <matricolaDocente>4</matricolaDocente>
+    <matricolaCoDocente>0</matricolaCoDocente>
+    <descrizione>Il corso di teoria dei segnali intende fornire al discente le basi del calcolo delle probabilità e dell’analisi frequenziale di segnali certi e aleatori, assieme alle sue pratiche applicazioni nel contesto del filtraggio, della trasmissione numerica e delle tecniche di modulazione analogica.</descrizione>
+    <colore>yellow</colore>
+    <anno>2</anno>
+    <semestre>2</semestre>
+    <curriculum>Telecomunicazioni</curriculum>
+    <cfu>12</cfu>
+    <ssd>ING/INF-02</ssd>
+    <idCorsoLaurea>1</idCorsoLaurea>
+    <stato>1</stato>
+  </corso>
+  <corso>
+    <id>4</id>
+    <nome>Tecniche della Programmazione</nome>
+    <matricolaDocente>1</matricolaDocente>
+    <matricolaCoDocente>0</matricolaCoDocente>
+    <descrizione>Conoscenza elementare dell'architettura e organizzazione dell'elaboratore. Sviluppo della capacita' di definire algoritmi per la risoluzione di problemi. Acquisizione di conoscenze fondamentali sulla programmazione, con il C come linguaggio di riferimento. Familiarizzazione con la definizione e uso distrutture dati elementari (quali gli array) e meno elementari (come tabelle, liste collegate ed alberi binari). Sviluppo della capacita' di applicare le conoscenze menzionate sopra, nella soluzione di problemi di media complessita', implicanti la selezione e definizione di algoritmi e la programmazionedi sistemi software di piccola-media dimensione.</descrizione>
+    <colore>lightcyan</colore>
+    <anno>1</anno>
+    <semestre>1</semestre>
+    <curriculum>Informatica</curriculum>
+    <cfu>9</cfu>
+    <ssd>ING/INF-04</ssd>
+    <idCorsoLaurea>1</idCorsoLaurea>
+    <stato>0</stato>
+  </corso>
+  <corso>
+    <id>5</id>
+    <nome>Analisi Matematica 1</nome>
+    <matricolaDocente>5</matricolaDocente>
+    <matricolaCoDocente>6</matricolaCoDocente>
+    <descrizione>Lo scopo di questo corso è quello di approfondire la comprensione delle idee e delle tecniche di calcolo integrale e calcolo differenziale per funzionidi una variabile. Queste idee e tecniche sono fondamentali per la comprensione degli altri corsi di analisi, di calcolo delle probabilità, della meccanica, della fisica e di molti altri settori della matematica pura e applicata. L'enfasi è sulla comprensione di concetti fondamentali, sul ragionamento logico, sulla comprensione del testo e sull'acquisizione di capacità di risolvere problemi concreti.</descrizione>
+    <colore>red</colore>
+    <anno>1</anno>
+    <semestre>1</semestre>
+    <curriculum>Matematica</curriculum>
+    <cfu>9</cfu>
+    <ssd>MAT-09</ssd>
+    <idCorsoLaurea>1</idCorsoLaurea>
+    <stato>1</stato>
+  </corso>
+  <corso>
+    <id>6</id>
+    <nome>Elettronica 1</nome>
+    <matricolaDocente>7</matricolaDocente>
+    <matricolaCoDocente>0</matricolaCoDocente>
+    <descrizione>Il corso intende fornire le conoscenze generali di un sistema elettronico inteso come sistema di elaborazione di informazioni. Per i circuiti analogici l'attenzione viene posta sul concetto di guadagno per i vari tipi di amplificatori, e sui limiti applicativi dovuti a banda passante, potenza e rumore. Per i circuiti digitali ci si concentra sulle porte logiche fondamentali e sulle caratteristiche di robustezza, velocità di elaborazione e consumo di potenza.</descrizione>
+    <colore>green</colore>
+    <anno>2</anno>
+    <semestre>2</semestre>
+    <curriculum>Elettronica</curriculum>
+    <cfu>9</cfu>
+    <ssd>ING/INF-06</ssd>
+    <idCorsoLaurea>1</idCorsoLaurea>
+    <stato>1</stato>
+  </corso>
+  <corso>
+    <id>7</id>
+    <nome>Fondamenti di Automatica</nome>
+    <matricolaDocente>8</matricolaDocente>
+    <matricolaCoDocente>0</matricolaCoDocente>
+    <descrizione>Scopo del corso è introdurre ai concetti di modellistica e ai principali metodi di studio dei sistemi dinamici orientati, con particolare riferimento alla classe dei sistemi lineari e stazionari, a tempo continuo e a tempo discreto, nonché illustrare le principali tecniche di sintesi di sistemi di controllo lineari per sistemi dinamici aventi modello lineare o linearizzabile mediante approssimazione. Le tecniche introdotte si riferiscono sia a sintesi di controllori continui, implementabili mediante semplici architetture elettroniche o elettro-meccaniche, che a controllori numerici ottenuti per via indiretta, ossia mediante approssimazione discreta di controllori continui, e per via diretta, a partire dalla rappresentazione esatta del sistema campionato. Gli studenti, al superamento dell'esame, avranno acquisito sufficienti conoscenze per quanto concerne la modellistica di sistemi fisici da diversi settori disciplinari (elettrico, meccanico, elettronico, economico, ambientale, gestionale, ecc.), con particolare riferimento ai casi lineari e alla approssimazione lineare di sistemi non lineari, la loro analisi dinamica, con caratterizzazione delle evoluzioni libere e forzate, le relazioni ingresso-uscita e i tipi di comportamento, le proprietà strutturali per l'analisi delle relazioni ingresso-stato-uscita, la stabilità . Essi saranno in grado di ricavare il modello matematico di sistemi fisici da diversi settori disciplinari (elettrico, meccanico, elettronico, economico, ambientale, gestionale, ecc.) nella rappresentazione con lo spazio di stato o come relazione ingresso-uscita; saranno in grado di analizzarne le caratteristiche dinamiche, determinandone il comportamento in funzione degli ingressi e delle condizioni iniziali; sapranno studiarne la stabilità; potranno essere in grado di ricavare informazioni sul comportamento del sistema, effettuare previsioni, identificare parametri, migliorando la conoscenza del sistema modellato. Conosceranno le principali tecniche di sintesi di sistemi di controllo lineari, a tempo continuo e a tempo discreto e sapranno scegliere, in funzione del problema dato, delle informazioni disponibili e delle specifiche poste, la migliore tecnica che consente di giungere alla soluzione più efficiente. Saranno inoltre in grado di predisporre lo schema a blocchi del sistema controllato individuando le grandezze da misurare. In alcuni casi sapranno fare riferimento a schemi realizzativi, analogici o digitali, di implementazione. Essi, inoltre, saranno in grado di: analizzare le specifiche per un sistema di controllo; definire lo schema del controllore, dalla misura all'azione di controllo; progettare un controllore, secondo la procedura più opportuna in funzione dell'oggetto edegli obiettivi; scegliere il dominio del tempo più opportuno per una più semplice ed efficace implementazione; effettuare delle simulazioni numeriche per verificare la rispondenza ai requisiti; individuare i dispositivi che possono realizzare il controllore sintetizzato.</descrizione>
+    <colore>orange</colore>
+    <anno>2</anno>
+    <semestre>2</semestre>
+    <curriculum>Informatica</curriculum>
+    <cfu>12</cfu>
+    <ssd>ING/INF-03</ssd>
+    <idCorsoLaurea>1</idCorsoLaurea>
+    <stato>1</stato>
+  </corso>
+  <corso>
+    <id>9</id>
+    <nome>Progettazione del Software</nome>
+    <matricolaDocente>9</matricolaDocente>
+    <matricolaCoDocente>0</matricolaCoDocente>
+    <descrizione>L'obiettivo del corso è lo studio e l'approfondimento degli aspetti fondamentali relativi alla progettazione del software quali la qualità del software; il concetto di modulo e la modularizzazione; la distinzione tra analisi, progetto e realizzazione di applicazioni; la nozione di specifica; ecc. Gli argomenti sono trattati dando enfasi ad aspetti metodologici e ad aspetti sperimentali utilizzando il linguaggio UML per la fase di analisi, e Java per la fase di realizzazione. L’introduzione ad ogni fase del processo di progettazione e realizzazione del software sarà seguita da esercitazioni guidate atte ad applicare in pratica quanto appreso. Al termine del corso lo studente avrà acquisito: le competenze di base per lo sviluppo di progetti software anche complessi, familiarità con i principi di base della programmazione orientata agli oggetti, conoscenza del linguaggio Java e di avanzati ambienti di sviluppo.</descrizione>
+    <colore>turquoise</colore>
+    <anno>2</anno>
+    <semestre>1</semestre>
+    <curriculum>Informatica</curriculum>
+    <cfu>9</cfu>
+    <ssd>ING/INF-04</ssd>
+    <idCorsoLaurea>1</idCorsoLaurea>
+    <stato>1</stato>
+  </corso>
+  <corso>
+    <id>10</id>
+    <nome>Complementi di Ingegneria Gestionale</nome>
+    <matricolaDocente>10</matricolaDocente>
+    <matricolaCoDocente>0</matricolaCoDocente>
+    <descrizione>Il corso presenta una panoramica introduttiva della gestione aziendale analizzando i rapporti tra problemi e decisioni delle diverse aree funzionali dell'impresa (ricerca e sviluppo, progettazione, marketing e vendite, produzione e logistica, gestione delle risorse umane, tecnologiche, informative e finanziarie) e i modi in cui i processi di pianificazione (formulazione di strategie per le unità di business e le funzioni, budgeting, gestione dei processi e delle attività operative) riconducono ad una sintesi coerente con gli obiettivi aziendali, i punti di vista che emergono in queste aree. Lo studente deve acquisire capacità di analisi qualitativa degli effetti della dotazione di risorse e competenze e della collocazione nel mercato sulla capacità dicompetere. Deve inoltre essere in grado di utilizzare quantitativamente metodologie e strumenti tipici del budgeting e delle scelte operative.</descrizione>
+    <colore>lightgray</colore>
+    <anno>3</anno>
+    <semestre>2</semestre>
+    <curriculum>Gestionale</curriculum>
+    <cfu>6</cfu>
+    <ssd>ING/GES-04</ssd>
+    <idCorsoLaurea>1</idCorsoLaurea>
+    <stato>1</stato>
+  </corso>
+  <corso>
+    <id>8</id>
+    <nome>Fisica 1</nome>
+    <matricolaDocente>3</matricolaDocente>
+    <matricolaCoDocente>0</matricolaCoDocente>
+    <descrizione>Il corso introduce la metodologia scientifica e sviluppa i concetti ed il formalismo della meccanica newtoniana e della termodinamica classica. Il corso è finalizzato a far acquisire allo studente una sufficiente familiarità con i modelli di base della fisica classica e, in particolare, con il concetto di grandezza fisica e con il ruolo che rivestono i Principi della Fisica. Lo studente, al termine della sua preparazione, dovrà essere in grado di applicare i concetti appresi alla risoluzione di semplici problemi di meccanica e di termodinamica.</descrizione>
+    <colore>lightblue</colore>
+    <anno>1</anno>
+    <semestre>2</semestre>
+    <curriculum>Fisica</curriculum>
+    <cfu>9</cfu>
+    <ssd>FIS/01</ssd>
+    <idCorsoLaurea>1</idCorsoLaurea>
+    <stato>1</stato>
+  </corso>
+  <corso>
+    <id>2</id>
+    <nome>Linguaggi per il Web</nome>
+    <matricolaDocente>2</matricolaDocente>
+    <matricolaCoDocente>0</matricolaCoDocente>
+    <descrizione>Acquisizione di nozioni fondamentali su- presentazione di risorse web,- sviluppo di applicazioni web, mediante opportune tecniche e linguaggi di programmazione;- rappresentazione e gestione dei dati rilevanti per un'applicazione web, mediante basi di dati e tecnologia XML Messa in pratica delle nozioni sopraelencate, mediante lo svolgimento di una tesina, orientata alla progettazione ed implementazione di una non banale applicazione web.</descrizione>
+    <colore>lightblue</colore>
+    <anno>3</anno>
+    <semestre>2</semestre>
+    <curriculum>Informatica</curriculum>
+    <cfu>6</cfu>
+    <ssd>ING-INF/01</ssd>
+    <idCorsoLaurea>1</idCorsoLaurea>
+    <stato>1</stato>
+  </corso>
+  <corso>
+    <id>11</id>
+    <nome>Tecniche della Programmazione</nome>
+    <matricolaDocente>2</matricolaDocente>
+    <matricolaCoDocente>0</matricolaCoDocente>
+    <descrizione>Conoscenza elementare dell'architettura e organizzazione dell'elaboratore. Sviluppo della capacita' di definire algoritmi per la risoluzione di problemi. Acquisizione di conoscenze fondamentali sulla programmazione, con il C come linguaggio di riferimento. Familiarizzazione con la definizione e uso di strutture dati elementari (quali gli array) e meno elementari (come tabelle, liste collegate ed alberi binari). Sviluppo della capacita' di applicare le conoscenze menzionate sopra, nella soluzione di problemi di media complessita', implicanti la selezione e definizione di algoritmi e la programmazione di sistemi software di piccola-media dimensione.</descrizione>
+    <colore>lightblue</colore>
+    <anno>1</anno>
+    <semestre>1</semestre>
+    <curriculum>Informatica</curriculum>
+    <cfu>9</cfu>
+    <ssd>ING-INF/01</ssd>
+    <idCorsoLaurea>1</idCorsoLaurea>
+    <stato>1</stato>
+  </corso>
+<corso><id>12</id><nome>Fisica 2</nome><matricolaDocente>11</matricolaDocente><matricolaCoDocente>0</matricolaCoDocente><descrizione>Fornire i principi fondamentali dell'elettromagnetismo classico e dei fenomeni ondulatori sia nel vuoto che in presenza di mezzi materiali, accentuando l’aspetto sperimentale della materia. Insegnare a risolvere&#13;
+ragionando semplici problemi sugli argomenti di cui sopra. Lo studente deve aver compreso i fenomeni relativi all’elettromagnetismo classico e alla propagazione per onde. Deve aver capito quali leggi sono state ottenute sperimentalmente e quali come deduzione matematica.&#13;
+Infine deve saper utilizzare gli argomenti trattati per risolvere&#13;
+semplici problemi.</descrizione><colore>lightblue</colore><anno>2</anno><semestre>1</semestre><curriculum>Fisica</curriculum><cfu>9</cfu><ssd>FIS/02</ssd><idCorsoLaurea>1</idCorsoLaurea><stato>1</stato></corso><corso><id>13</id><nome>Artificial Intelligence</nome><matricolaDocente>9</matricolaDocente><matricolaCoDocente>0</matricolaCoDocente><descrizione>Conoscere i principi di base dell'intelligenza artificiale, in particolare la modellazione di sistema intelligente tramite la nozione di agente intelligente.&#13;
+Conoscere le tecniche di base dell'Intelligenza Artificiale con particolare riferimento alla manipolazione di simboli e, più in generale, a modelli discreti.&#13;
+Conoscere i principi fondamentali della interazione tra agenti intelligenti ed in particolare tra agente intelligente e uomo, attraverso il linguaggio parlato.</descrizione><colore>lightblue</colore><anno>1</anno><semestre>1</semestre><curriculum>Informatica</curriculum><cfu>6</cfu><ssd>ING-INF/05</ssd><idCorsoLaurea>2</idCorsoLaurea><stato>1</stato></corso><corso><id>14</id><nome>Vision and Perception</nome><matricolaDocente>9</matricolaDocente><matricolaCoDocente>2</matricolaCoDocente><descrizione>Il corso vuole introdurre lo studente ai concetti fondamentali della visione artificiale e alla costruzione di sistemi autonomi di interpretazione e ricostruzione di una scena tramite immagini e video. Il corso affronta elementi di base di geometria proiettiva ed epipolare, i metodi per la visione 3d e per la visione basata su più viste, e i metodi per la ricostruzione metrica e le metodologie di interpretazione di immagini e video. Inoltre il corso illustra le tecniche principali per il riconoscimento e la segmentazione di immagini e video basati sull’ apprendimento automatico.</descrizione><colore>lightblue</colore><anno>1</anno><semestre>2</semestre><curriculum>Informatica</curriculum><cfu>6</cfu><ssd>ING-INF/05</ssd><idCorsoLaurea>2</idCorsoLaurea><stato>1</stato></corso><corso><id>15</id><nome>Elective in Artificial Intelligence 1</nome><matricolaDocente>1</matricolaDocente><matricolaCoDocente>9</matricolaCoDocente><descrizione>L'obiettivo del corso, che è il più avanzato all'interno della Laurea Magistrale in Intelligenza Artificiale e Robotica, e' fornire una panoramica applicativa ai seguenti temi di ricerca: metodi di apprendimento nella visione computazionale, riconoscimento di modelli, interazione persona-robot e robot cognitivi.&#13;
+&#13;
+Gli argomenti sono esposti da ricercatori attivi nei campi indicati allo scopo di presentare allo studente problemi di ricerca e temi di applicazione rilevanti e recenti nel campo dell'Intelligenza Artificiale e della Robotica. A tal fine, i corsi comprendono sia la presentazione e la discussione di articoli scientifici, sia un lavoro progettuale avanzato.&#13;
+L'obiettivo di apprendimento del corso e' fornire le conoscenze necessarie ad affrontare un lavoro di ricerca in questi campi usando degli strumenti pratici per la validazione sperimentale.</descrizione><colore>lightblue</colore><anno>2</anno><semestre>1</semestre><curriculum>Informatica</curriculum><cfu>6</cfu><ssd>ING-INF/05</ssd><idCorsoLaurea>2</idCorsoLaurea><stato>1</stato></corso><corso><id>16</id><nome>Seminars in Artificial Intelligence and Robotics</nome><matricolaDocente>4</matricolaDocente><matricolaCoDocente>8</matricolaCoDocente><descrizione>L'obiettivo di questo corso è fornire una panoramica sulle recenti tendenze nella computer vision applicata alla robotica autonoma e industriale. Dopo un'introduzione agli argomenti trattati, ogni lezione verranno presentati e discussi assieme agli studenti due o tre articoli scientifici di interesse. Tra gli argomenti trattati figurano la computer vision di basso livello, la ricostruzione 3D da immagini, la stima della posizione basta sulla visione, la visual servoing, la rilevazione e localizzazione di oggetti e la segmentazione semantica di scene.</descrizione><colore>lightblue</colore><anno>2</anno><semestre>2</semestre><curriculum>Informatica</curriculum><cfu>3</cfu><ssd>ING-INF/05</ssd><idCorsoLaurea>2</idCorsoLaurea><stato>1</stato></corso><corso><id>17</id><nome>Robotica 1</nome><matricolaDocente>8</matricolaDocente><matricolaCoDocente>0</matricolaCoDocente><descrizione>Il corso fornisce gli strumenti di base per l'analisi cinematica, la pianificazione e la programmazione dei movimenti di robot manipolatori in ambienti industriali e di servizio.</descrizione><colore>lightblue</colore><anno>1</anno><semestre>1</semestre><curriculum>Robotica</curriculum><cfu>6</cfu><ssd>ING-INF/04</ssd><idCorsoLaurea>2</idCorsoLaurea><stato>1</stato></corso><corso><id>18</id><nome>Medical Robotics</nome><matricolaDocente>1</matricolaDocente><matricolaCoDocente>0</matricolaCoDocente><descrizione>Fornire un’introduzione e una panoramica sull’uso delle tecnologie robotiche nell’ambito medico, con particolare riferimento alla chirurgia assistita.&#13;
+&#13;
+Lo studente conoscerà i principali sistemi di chirurgia assistita da robot, delle problematiche inerenti alla progettazione di robot medicali e al loro controllo.</descrizione><colore>lightblue</colore><anno>1</anno><semestre>2</semestre><curriculum>Robotica</curriculum><cfu>6</cfu><ssd>ING-INF/04</ssd><idCorsoLaurea>2</idCorsoLaurea><stato>1</stato></corso><corso><id>19</id><nome>Software Engineering</nome><matricolaDocente>12</matricolaDocente><matricolaCoDocente>4</matricolaCoDocente><descrizione>Il corso analizza il processo di sviluppo del software e presenta le&#13;
+metodologia, gli standard di qualità, le metriche e le tecniche&#13;
+comunemente usate per la stima economica, la pianificazione ed il test&#13;
+di applicazioni software di qualità professionale.&#13;
+Al fine di interpretare correttamente le misure utilizzate nel contesto&#13;
+dell'assicurazione della qualità del software, il corso presenta le&#13;
+nozioni di base della teoria della misura e della verifica di&#13;
+esperimenti tramite l'analisi della varianza</descrizione><colore>lightblue</colore><anno>1</anno><semestre>1</semestre><curriculum>Informatica</curriculum><cfu>6</cfu><ssd>ING-INF/05</ssd><idCorsoLaurea>3</idCorsoLaurea><stato>1</stato></corso><corso><id>20</id><nome>Neural Networks</nome><matricolaDocente>4</matricolaDocente><matricolaCoDocente>7</matricolaCoDocente><descrizione>Il corso introduce le reti neurali (NN), e i alcuni metodi detti ‘soft computing’ (SC) che, a differenza delle tradizionali procedure di calcolo numerico esatto, sono tolleranti a imprecisioni, incertezze, rumore e a verità parziali. Gli obiettivi formativi consistono nell’acquisizione delle seguenti conoscenze e competenze specifiche: 1) principali modelli di reti neurali e reti a ispirazioni anche non biologica: architetture, proprietà matematiche e algoritmi di apprendimento; 2) filtraggio adattativo e modellazione di fenomeni dinamici e statici; 3) rappresentazione parsimoniosa di dati ed estrazione dell’informazione non ridondante; 4) architetture e apprendimento di reti neurali profonde con metodi a forte regolarizzazione; 5) algoritmi per i metodi SC. Sono discusse applicazioni di: analisi e modellazione di dati non strutturati: modellazione, filtraggio e predizione; il riconoscimento di configurazioni; cluster analysis; metodi per la fusione dati da sensori multipli; la separazione miopica di segnali.</descrizione><colore>lightblue</colore><anno>1</anno><semestre>2</semestre><curriculum>Informatica</curriculum><cfu>6</cfu><ssd>ING-IND/31</ssd><idCorsoLaurea>3</idCorsoLaurea><stato>1</stato></corso><corso><id>21</id><nome>Big Data</nome><matricolaDocente>1</matricolaDocente><matricolaCoDocente>4</matricolaCoDocente><descrizione>Conoscenza dei principali scenari applicativi di interesse nell'analisi di&#13;
+collezioni di dati di grandi dimensioni.&#13;
+Conoscenza e comprensione dei principali problemi metodologici e di analisi posti dalla&#13;
+dimensione crescente dei dati.&#13;
+Conoscenza delle principali tecniche di soluzione e dei principali strumenti&#13;
+a disposizione per implementarle.&#13;
+Comprensione degli aspetti teorici e fondazionali delle principali tecniche per&#13;
+l'analisi di collezioni di dati di grandi dimensioni&#13;
+Capacità di tradurre le nozioni acquisite in programmi per la soluzione di problemi&#13;
+specifici.&#13;
+Conoscenza delle principali tecniche di valutazione e loro applicazione a scenari specifici.</descrizione><colore>lightblue</colore><anno>2</anno><semestre>1</semestre><curriculum>Informatica</curriculum><cfu>6</cfu><ssd>ING-INF/05</ssd><idCorsoLaurea>3</idCorsoLaurea><stato>1</stato></corso><corso><id>22</id><nome>Secure Computation</nome><matricolaDocente>2</matricolaDocente><matricolaCoDocente>12</matricolaCoDocente><descrizione>Gli studenti impareranno il concetto di computazione sicura, che consente ad una rete di giocatori malfidati, ognuno con il proprio input segreto, di eseguire un protocollo distribuito per valutare l'output di una funzione sui propri input in modo sicuro, cioè senza rivelare nulla oltre a quello che l'output della funzione rivela. La computazione sicura è un'astrazione di molte applicazioni importanti, incluso il voto elettronico, le aste digitali, le crittovalute, la conoscenza nulla, etc.</descrizione><colore>lightblue</colore><anno>2</anno><semestre>2</semestre><curriculum>Informatica</curriculum><cfu>6</cfu><ssd>ING-INF/01</ssd><idCorsoLaurea>3</idCorsoLaurea><stato>1</stato></corso><corso><id>23</id><nome>Project Management</nome><matricolaDocente>10</matricolaDocente><matricolaCoDocente>0</matricolaCoDocente><descrizione>Il contesto del project management&#13;
+- Principi e variabili del Project Management&#13;
+- L’approccio sistemico: le strutture logico-gerarchiche&#13;
+- Applicazioni del Project Management&#13;
+- Agile Project Management&#13;
+&#13;
+L’organizzazione e la gestione dei progetti&#13;
+- Strutture organizzative per il Project Management&#13;
+- Il ruolo del Project Manager&#13;
+- La gestione delle risorse umane e della comunicazione&#13;
+- La gestione della qualità, del tempo e dei costi&#13;
+- La gestione dei rischi&#13;
+- La gestione degli approvvigionamenti di progetto&#13;
+&#13;
+La gestione strategica e integrata dei progetti&#13;
+- Strategie di progetto&#13;
+- Prestazioni di progetto e della progettazione&#13;
+- Program Management&#13;
+- Project Portfolio Management&#13;
+- La gestione delle fasi dei progetti</descrizione><colore>lightblue</colore><anno>1</anno><semestre>1</semestre><curriculum>Gestionale</curriculum><cfu>6</cfu><ssd>ING-IND/31</ssd><idCorsoLaurea>3</idCorsoLaurea><stato>1</stato></corso></corsi>

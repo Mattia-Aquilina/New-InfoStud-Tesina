@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<faqs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="faqs.xsd">
+    <faq>
+        <id>1</id>
+        <domanda>Servono libri di testo per il corso?</domanda>
+        <risposta>Si</risposta>
+        <utilitaTotale>0</utilitaTotale>
+        <idCorso>1</idCorso>
+        <idAutore>1</idAutore>
+        <stato>1</stato>
+    </faq>
+    <faq>
+        <id>3</id>
+        <domanda>In che aula si svolgerà il corso?</domanda>
+        <risposta>Aula 15</risposta>
+        <utilitaTotale>0</utilitaTotale>
+        <idCorso>2</idCorso>
+        <idAutore>3</idAutore>
+        <stato>1</stato>
+    </faq>
+    <faq>
+        <id>2</id>
+        <domanda>In che aula si svolgeranno le lezioni?</domanda>
+        <risposta/>
+        <utilitaTotale>-1</utilitaTotale>
+        <idCorso>1</idCorso>
+        <idAutore>3</idAutore>
+        <stato>1</stato>
+    </faq>
+<faq><id>4</id><domanda>Il corso sarà completamente in presenza?</domanda><risposta/><utilitaTotale>0</utilitaTotale><idCorso>13</idCorso><idAutore>1</idAutore><stato>1</stato></faq><faq><id>5</id><domanda>Quali sono i libri consigliati per affrontare l'esame?</domanda><risposta/><utilitaTotale>0</utilitaTotale><idCorso>17</idCorso><idAutore>1</idAutore><stato>1</stato></faq><faq><id>6</id><domanda>In che aula si svolgerà il corso?</domanda><risposta/><utilitaTotale>0</utilitaTotale><idCorso>14</idCorso><idAutore>1</idAutore><stato>1</stato></faq><faq><id>7</id><domanda>Dove posso trovare le slide?</domanda><risposta/><utilitaTotale>0</utilitaTotale><idCorso>19</idCorso><idAutore>2</idAutore><stato>1</stato></faq><faq><id>8</id><domanda>In cosa consisterà l'esame?</domanda><risposta/><utilitaTotale>0</utilitaTotale><idCorso>21</idCorso><idAutore>2</idAutore><stato>1</stato></faq><faq><id>9</id><domanda>È necessario un libro di testo da affiancare alle slide?</domanda><risposta/><utilitaTotale>0</utilitaTotale><idCorso>23</idCorso><idAutore>2</idAutore><stato>1</stato></faq><faq><id>10</id><domanda>Si sarà un pre appello per questo corso?</domanda><risposta/><utilitaTotale>1</utilitaTotale><idCorso>6</idCorso><idAutore>4</idAutore><stato>1</stato></faq><faq><id>11</id><domanda>In che cosa consisterà l'esame?</domanda><risposta/><utilitaTotale>1</utilitaTotale><idCorso>3</idCorso><idAutore>4</idAutore><stato>1</stato></faq><faq><id>12</id><domanda>Si potrebbero avere più informazioni sul preappello?</domanda><risposta/><utilitaTotale>0</utilitaTotale><idCorso>9</idCorso><idAutore>4</idAutore><stato>1</stato></faq><faq><id>13</id><domanda>Ci sarà un pre appello per questo corso?</domanda><risposta/><utilitaTotale>2</utilitaTotale><idCorso>1</idCorso><idAutore>4</idAutore><stato>1</stato></faq><faq><id>14</id><domanda>Com'è strutturata la prova scritta?</domanda><risposta/><utilitaTotale>2</utilitaTotale><idCorso>5</idCorso><idAutore>4</idAutore><stato>1</stato></faq><faq><id>15</id><domanda>Dove possiamo trovare il programma del corso?</domanda><risposta/><utilitaTotale>1</utilitaTotale><idCorso>3</idCorso><idAutore>11</idAutore><stato>1</stato></faq><faq><id>16</id><domanda>Dove possiamo trovare del materiale per esercitarci?</domanda><risposta/><utilitaTotale>0</utilitaTotale><idCorso>6</idCorso><idAutore>11</idAutore><stato>1</stato></faq><faq><id>17</id><domanda>Per quanto riguarda la parte da 3 crediti. Il progetto deve essere sviluppato utilizzando POSTGRESQL come DBMS?</domanda><risposta/><utilitaTotale>0</utilitaTotale><idCorso>1</idCorso><idAutore>12</idAutore><stato>1</stato></faq><faq><id>18</id><domanda>L'orale può essere svolto anche in appello separato rispetto a quello dello scritto?</domanda><risposta/><utilitaTotale>0</utilitaTotale><idCorso>3</idCorso><idAutore>12</idAutore><stato>1</stato></faq></faqs>

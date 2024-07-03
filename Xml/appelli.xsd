@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+
+    <xsd:element name="appelli">
+        <xsd:complexType>
+            <xsd:sequence>
+                <xsd:element ref="appello" minOccurs="0" maxOccurs="unbounded" />
+            </xsd:sequence>
+        </xsd:complexType>
+    </xsd:element>
+    <xsd:element name="appello">
+        <xsd:complexType>
+            <xsd:sequence>
+                <xsd:element ref="id" minOccurs="1" maxOccurs="1"/>
+                <xsd:element ref="idCorso" minOccurs="1" maxOccurs="1"/>
+                <xsd:element ref="dataOra" minOccurs="1" maxOccurs="1"/>
+                <xsd:element ref="stato" minOccurs="1" maxOccurs="1"/>
+            </xsd:sequence>
+        </xsd:complexType>
+    </xsd:element>
+    <xsd:element name="id" type="xsd:integer"/>
+    <xsd:element name="dataOra" type="xsd:string"/>
+    <xsd:element name="idCorso" type="xsd:integer"/>
+    <xsd:element name="stato" type="xsd:integer"/>
+</xsd:schema>
